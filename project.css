@@ -76,8 +76,10 @@ body {
   text-align: center;
 }
 
+
+
 .Cap-Proj {
-  display:block;
+  display:inline-table;
   position: relative;
   padding-bottom: 15px;
   transition: font-size 0.5s ease;
@@ -111,6 +113,44 @@ body {
 }
 
 .Cap-Proj:hover {
+  font-size: 24px;
+  overflow:visible
+}
+
+.TKPY-PROJ {
+  display:inline-table;
+  position: relative;
+  padding-bottom: 15px;
+  transition: font-size 0.5s ease;
+  width: 622px;
+  border-color: black;
+  padding-left: 15px;
+  padding-top: 15px;
+  border-style: solid;
+  font-size: 0;
+  overflow:hidden;
+  
+  
+}
+
+.TKPY-PROJ h2 {
+  overflow: hidden;
+  font-style:oblique;
+  text-decoration: underline;
+}
+
+.TKPY-PROJ img {
+  display:block;
+  position: relative;
+  border-color: black;
+  border-style: solid;
+  border-spacing: 20px;
+  width: 600px;
+  align-self: left;
+  
+}
+
+.TKPY-PROJ:hover {
   font-size: 24px;
   overflow:visible
 }
