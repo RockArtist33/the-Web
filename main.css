@@ -4,7 +4,25 @@ body {
 
 }
 
-Title {
-  font-size: 48px;
-  
+.Header {
+  background-color: rgba(151, 57, 57, 0);
+
+}
+
+.Icon-Header {
+  background-color: rgb(104, 104, 104);
+  width: 100px;
+  height: 100px;
+  margin: center;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.Icon-Header img {
+  width: 100%;
+  height: 100%;
+}
+
+.Icon-Header:hover {
+  background-color: gold;
 }
